@@ -5,6 +5,8 @@
       padding: 0;
     }
   }
+
+
   .utama {
     width: 100%;
     overflow: hidden;
@@ -26,4 +28,41 @@
     width: 100%;
     float: left;
   }
+
+@media (max-width: 670px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+
+  .jumbotron p {
+    font-size : 16px;
+  }
   
+  .utama {
+    width: 100%;
+    overflow: hidden;
+  }
+  .isi {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .isi_gambar {
+    width: 25%;
+    float: left;
+  }
+  .isi2 {
+    width: 400%;
+  }
+  .utama img {
+    width: 100%;
+    float: left;
+  }
+  .nav-content a{
+    font-size : 16px; 
+  }
+}
+
