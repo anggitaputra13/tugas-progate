@@ -1,0 +1,29 @@
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  .utama {
+    width: 100%;
+    overflow: hidden;
+  }
+  .isi {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .isi_gambar {
+    width: 25%;
+    float: left;
+  }
+  .isi2 {
+    width: 400%;
+  }
+  .utama img {
+    width: 100%;
+    float: left;
+  }
+  
